@@ -17,8 +17,8 @@ LOG = -1002566117512,
 # auth_chats = []
 
 #try:
-    #ADMINS=[7353883554]
-    #for x in (os.environ.get("ADMINS", "7353883554").split()):
+    #ADMINS=[1003575883]
+    #for x in (os.environ.get("ADMINS", "1003575883").split()):
         #ADMINS.append(int(x))
 #except ValueError:
         #raise Exception("Your Admins list does not contain valid integers.")
