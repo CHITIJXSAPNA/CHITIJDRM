@@ -31,9 +31,10 @@ from helper import *
 from config import API_ID, API_HASH, BOT_TOKEN
 
 bot = Client("bot",
-             api_id=225877,
-             api_hash="0c9262b17ad8e38f1e4d",
-             bot_token="")
+             api_id=28712726,
+             api_hash="06acfd441f9c3402ccdb1945e8e2a93b",
+             bot_token="7674612182:AAFgKbjp1xDnGUX_u5sRfSMDyEC5aMA2M28
+             ")
 
 photo1 = 'https://envs.sh/PQ_.jpg'
 getstatusoutput(f"wget {photo1} -O 'photo.jpg'")    
@@ -79,7 +80,7 @@ async def restart_handler(_, m):
     await m.reply_text("🚦**STOPPED**🚦", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
-@bot.on_message(filters.command("chitij"))
+@bot.on_message(filters.command("bingo"))
 async def account_login(bot: Client, m: Message):
     chat_id = str(m.chat.id)
     logging.info(f"Received /chitij command in chat: {chat_id}, type: {m.chat.type}")
