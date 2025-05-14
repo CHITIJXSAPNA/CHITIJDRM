@@ -33,8 +33,8 @@ from config import API_ID, API_HASH, BOT_TOKEN
 bot = Client("bot",
              api_id=28712726,
              api_hash="06acfd441f9c3402ccdb1945e8e2a93b",
-             bot_token="7674612182:AAFgKbjp1xDnGUX_u5sRfSMDyEC5aMA2M28
-             ")
+             bot_token="7674612182:AAFgKbjp1xDnGUX_u5sRfSMDyEC5aMA2M28")
+             
 
 photo1 = 'https://envs.sh/PQ_.jpg'
 getstatusoutput(f"wget {photo1} -O 'photo.jpg'")    
