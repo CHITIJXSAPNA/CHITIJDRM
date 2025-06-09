@@ -12,6 +12,8 @@ OWNER = int(os.environ.get("OWNER", 1003575883))
 
 LOG = -1002566117512,
 
+PROXY = "103.172.85.194:50100" #Socks5 Proxy
+
 # UPDATE_GRP = , # bot sat group
 
 # auth_chats = []
